@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.4
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Oct 20, 2021 at 02:18 AM
+- Server version: 10.4.17-MariaDB
+- PHP Version: 8.0.0
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="maintain" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="details">
+                CREATE TABLE `details` (
+                  `id` varchar(255) NOT NULL,
+                  `username` varchar(255) NOT NULL,
+                  `fullname` varchar(255) NOT NULL,
+                  `email` varchar(255) NOT NULL,
+                  `enumber` varchar(255) NOT NULL,
+                  `number` varchar(255) NOT NULL,
+                  `password` varchar(255) NOT NULL,
+                  `usertype` varchar(255) NOT NULL DEFAULT 'Employee',
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+            <pma:table name="reports">
+                CREATE TABLE `reports` (
+                  `id` varchar(255) NOT NULL,
+                  `colour` varchar(255) NOT NULL,
+                  `descrip` varchar(255) NOT NULL,
+                  `status` varchar(255) NOT NULL DEFAULT 'Unconfirmed',
+                  `type` varchar(255) NOT NULL,
+                  `enum` varchar(255) NOT NULL,
+                  `date` varchar(255) NOT NULL,
+                  `picture` longblob DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'maintain'
+    -->
+    <database name="maintain">
+        <!-- Table details -->
+        <table name="details">
+            <column name="id">0yiO0Ml9nJp</column>
+            <column name="username">Admin 2</column>
+            <column name="fullname">Admin 2</column>
+            <column name="email">Admin2@live.co.uk</column>
+            <column name="enumber">0002</column>
+            <column name="number">07888888888</column>
+            <column name="password">new</column>
+            <column name="usertype">Admin</column>
+        </table>
+        <table name="details">
+            <column name="id">8GoVtNKD2i</column>
+            <column name="username">Admin</column>
+            <column name="fullname">Admin</column>
+            <column name="email">Admin@Admin.com</column>
+            <column name="enumber">0001</column>
+            <column name="number">07777777777</column>
+            <column name="password">123</column>
+            <column name="usertype">Admin</column>
+        </table>
+        <table name="details">
+            <column name="id">cLC6hGFsdX</column>
+            <column name="username">gtesting</column>
+            <column name="fullname">lol g lolool</column>
+            <column name="email">lololo@gmail.co.uk</column>
+            <column name="enumber">0374</column>
+            <column name="number">07865629133</column>
+            <column name="password">andrew1</column>
+            <column name="usertype">Employee</column>
+        </table>
+        <table name="details">
+            <column name="id">J6onxMy7Ib</column>
+            <column name="username">testtester</column>
+            <column name="fullname">testing tester</column>
+            <column name="email">testing@test.co.uk</column>
+            <column name="enumber">4554</column>
+            <column name="number">07876383251</column>
+            <column name="password">andrew</column>
+            <column name="usertype">Employee</column>
+        </table>
+        <table name="details">
+            <column name="id">P1hZTKOxTU</column>
+            <column name="username">angeladjei</column>
+            <column name="fullname">Angel Adjei</column>
+            <column name="email">angeladjei@hotmail.com</column>
+            <column name="enumber">enter here...</column>
+            <column name="number">075076463545</column>
+            <column name="password">Yellow1916</column>
+            <column name="usertype">Employee</column>
+        </table>
+        <table name="details">
+            <column name="id">qntYKmYDzy</column>
+            <column name="username">Addy</column>
+            <column name="fullname">Admin</column>
+            <column name="email">admin@live.co.uk</column>
+            <column name="enumber">0003</column>
+            <column name="number">02723617718</column>
+            <column name="password">123</column>
+            <column name="usertype">Employee</column>
+        </table>
+        <table name="details">
+            <column name="id">vJurs9to5K</column>
+            <column name="username">testing 987</column>
+            <column name="fullname">test</column>
+            <column name="email">test@gmail.com</column>
+            <column name="enumber">7896</column>
+            <column name="number">09876523428</column>
+            <column name="password">andrew</column>
+            <column name="usertype">Employee</column>
+        </table>
+        <table name="details">
+            <column name="id">Xt1IrqWsxQ</column>
+            <column name="username">testtest</column>
+            <column name="fullname">testing tester</column>
+            <column name="email">testing@test.com</column>
+            <column name="enumber">6754</column>
+            <column name="number">07876543210</column>
+            <column name="password">andrew</column>
+            <column name="usertype">Employee</column>
+        </table>
+        <!-- Table reports -->
+        <table name="reports">
+            <column name="id">R84937763</column>
+            <column name="colour">Red</column>
+            <column name="descrip">dunno1</column>
+            <column name="status">Unconfirmed</column>
+            <column name="type">Passenger Train Car</column>
+            <column name="enum">7777</column>
+            <column name="date">04-02-2021</column>
+            <column name="picture">NULL</column>
+        </table>
+        <table name="reports">
+            <column name="id">W11586803</column>
+            <column name="colour">White</column>
+            <column name="descrip">Testing report for application</column>
+            <column name="status">Confirmed by Admin:0001</column>
+            <column name="type">Report</column>
+            <column name="enum">7896</column>
+            <column name="date">01-06-2021</column>
+            <column name="picture"></column>
+        </table>
+        <table name="reports">
+            <column name="id">W14493979</column>
+            <column name="colour">White</column>
+            <column name="descrip">testing 123 to 4</column>
+            <column name="status">Unconfirmed</column>
+            <column name="type">Report</column>
+            <column name="enum">7777</column>
+            <column name="date">02-01-2017</column>
+            <column name="picture">NULL</column>
+        </table>
+        <table name="reports">
+            <column name="id">W24342657</column>
+            <column name="colour">White</column>
+            <column name="descrip">This is a test report for te final report as you can see. </column>
+            <column name="status">Unconfirmed</column>
+            <column name="type">Passenger Train Car</column>
+            <column name="enum">0003</column>
+            <column name="date">13-04-2021</column>
+            <column name="picture">NULL</column>
+        </table>
+        <table name="reports">
+            <column name="id">W81404255</column>
+            <column name="colour">White</column>
+            <column name="descrip">testing adfdaf sfadad dfadfadfd</column>
+            <column name="status">Unconfirmed</column>
+            <column name="type">Passenger Train Car</column>
+            <column name="enum">7777</column>
+            <column name="date">12-04-2021</column>
+            <column name="picture">NULL</column>
+        </table>
+        <table name="reports">
+            <column name="id">Y53191714</column>
+            <column name="colour">Yellow</column>
+            <column name="descrip">hkvgcxfhjcj</column>
+            <column name="status">Unconfirmed</column>
+            <column name="type">Passenger Train Car</column>
+            <column name="enum">7777</column>
+            <column name="date">12-04-2021</column>
+            <column name="picture">NULL</column>
+        </table>
+        <table name="reports">
+            <column name="id">Y66734988</column>
+            <column name="colour">Yellow</column>
+            <column name="descrip">testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</column>
+            <column name="status">Unconfirmed</column>
+            <column name="type">Tracks</column>
+            <column name="enum">7777</column>
+            <column name="date">01-05-2021</column>
+            <column name="picture">NULL</column>
+        </table>
+    </database>
+</pma_xml_export>

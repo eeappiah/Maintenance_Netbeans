@@ -1,0 +1,19 @@
+[
+{"type":"header","version":"5.0.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"maintain"},
+{"type":"table","name":"details","database":"maintain","data":
+[
+{"id":"0yiO0Ml9nJp","username":"Admin 2","fullname":"Admin 2","email":"Admin2@live.co.uk","enumber":"0002","number":"07888888888","password":"new","usertype":"Admin"},
+{"id":"8GoVtNKD2i","username":"Admin","fullname":"Admin","email":"Admin@Admin.com","enumber":"0001","number":"07777777777","password":"123","usertype":"Admin"},
+{"id":"cLC6hGFsdX","username":"gtesting","fullname":"lol g lolool","email":"lololo@gmail.co.uk","enumber":"0374","number":"07865629133","password":"andrew1","usertype":"Employee"},
+{"id":"J6onxMy7Ib","username":"testtester","fullname":"testing tester","email":"testing@test.co.uk","enumber":"4554","number":"07876383251","password":"andrew","usertype":"Employee"},
+{"id":"P1hZTKOxTU","username":"angeladjei","fullname":"Angel Adjei","email":"angeladjei@hotmail.com","enumber":"enter here...","number":"075076463545","password":"Yellow1916","usertype":"Employee"},
+{"id":"qntYKmYDzy","username":"Addy","fullname":"Admin","email":"admin@live.co.uk","enumber":"0003","number":"02723617718","password":"123","usertype":"Employee"},
+{"id":"vJurs9to5K","username":"testing 987","fullname":"test","email":"test@gmail.com","enumber":"7896","number":"09876523428","password":"andrew","usertype":"Employee"},
+{"id":"Xt1IrqWsxQ","username":"testtest","fullname":"testing tester","email":"testing@test.com","enumber":"6754","number":"07876543210","password":"andrew","usertype":"Employee"}
+]
+}
+,{"type":"table","name":"reports","database":"maintain","data":
+[
+{"id":"R84937763","colour":"Red","descrip":"dunno1","status":"Unconfirmed","type":"Passenger Train Car","enum":"7777","date":"04-02-2021","picture":null},
+]
